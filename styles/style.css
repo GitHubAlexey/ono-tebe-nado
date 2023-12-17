@@ -189,6 +189,7 @@
 
 .card {
 	position: relative;
+	z-index: -1;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -218,17 +219,14 @@
 }
 
 .card_type_film {
-	z-index: -1;
 	background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-	z-index: -1;
 	background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-	z-index: -1;
 	background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -251,8 +249,8 @@
 }
 
 .about__column-logo {
+	justify-self: center;
 	align-self: start;
-	padding: 0 95px;
 }
 
 .about__logo {
